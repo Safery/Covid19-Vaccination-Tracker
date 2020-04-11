@@ -1,0 +1,16 @@
+/*
+	Theme built-upon Stellar by HTML5 UP
+*/
+
+/* Header */
+
+	body.is-preload #header.alt > * {
+		opacity: 1;
+	}
+
+	body.is-preload #header.alt .logo {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+	}

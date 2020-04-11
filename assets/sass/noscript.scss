@@ -1,0 +1,26 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+
+/*
+	Theme built-upon Stellar by HTML5 UP
+*/
+
+/* Header */
+
+	#header {
+		body.is-preload & {
+			&.alt {
+				> * {
+					opacity: 1;
+				}
+
+				.logo {
+					@include vendor('transform', 'none');
+				}
+			}
+		}
+	}
