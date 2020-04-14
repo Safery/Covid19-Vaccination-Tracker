@@ -163,7 +163,7 @@
                 table += "<tr>";
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i]["content"]["$t"] + '</td>';
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i + 1]["content"]["$t"] + '</td>';
-                table += '<td style="font-size: 0.8em;background-color:#99B898;color: white" >' + result["feed"]["entry"][i + 2]["content"]["$t"] + '</td>';
+                table += '<td style="font-size: 0.8em;background-color:#99B898;color: white;" class="disMobile" >' + result["feed"]["entry"][i + 2]["content"]["$t"] + '</td>';
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i + 3]["content"]["$t"] + '</td>';
                 var res = "<td>";
                 var totalSources = result["feed"]["entry"][i + 4]["content"]["$t"].split("|");
@@ -186,7 +186,7 @@
                 table += "<tr>";
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i]["content"]["$t"] + '</td>';
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i + 1]["content"]["$t"] + '</td>';
-                table += '<td style="font-size: 0.8em;background-color:#99B898;color: white" >' + result["feed"]["entry"][i + 2]["content"]["$t"] + '</td>';
+                table += '<td style="font-size: 0.8em;background-color:#99B898;color: white;" class="disMobile" >' + result["feed"]["entry"][i + 2]["content"]["$t"] + '</td>';
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i + 3]["content"]["$t"] + '</td>';
                 var res = "<td>";
                 var totalSources = result["feed"]["entry"][i + 4]["content"]["$t"].split("|");
@@ -208,7 +208,7 @@
                 table += "<tr>";
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i]["content"]["$t"] + '</td>';
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i + 1]["content"]["$t"] + '</td>';
-                table += '<td style="font-size: 0.8em;background-color:#99B898;color: white"  >' + result["feed"]["entry"][i + 2]["content"]["$t"] + '</td>';
+                table += '<td style="font-size: 0.8em;background-color:#99B898;color: white;" class="disMobile"  >' + result["feed"]["entry"][i + 2]["content"]["$t"] + '</td>';
                 table += '<td style="font-size: 0.8em;">' + result["feed"]["entry"][i + 3]["content"]["$t"] + '</td>';
                 var res = "<td>";
                 var totalSources = result["feed"]["entry"][i + 4]["content"]["$t"].split("|");
