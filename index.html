@@ -32,6 +32,13 @@
             d.getElementsByTagName("head")[0].appendChild(s);
         })();
     </script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e964b265d9bf5001283bae9&product=inline-share-buttons&cms=website' async='async'></script>
+
+    <!-- Resources for the map -->
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/maps.js"></script>
+    <script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
 
 </head>
 
@@ -44,7 +51,7 @@
         <header id="header" class="alt">
             <span class="logo"><img src="images/logo.png" alt="Picture of the Vaccine-Tracker.com logo" /></span>
             <h1>Covid-19 Vaccine Tracker</h1>
-            <p>Last updated <a href="#">April 13, 2020</a></p>
+            <p>Last updated <a href="#">April 15, 2020</a></p>
         </header>
 
         <!-- Nav -->
@@ -305,48 +312,12 @@
 
 
 
-            <!-- CDC News Section -->
+            <!-- Map Section -->
             <section id="last" class="main special">
                 <header class="major">
-                    <h2>Latest News (CDC)</h2>
+                    <h2>Location of Vaccine Developments</h2>
                 </header>
-
-                <ul class="features">
-                    <li>
-                        <div class="thumbnail">
-                            <a href="#" id="thumbLink0"><img src="images/cdc_logo.jpg" alt="picture of the cdc logo"></a>
-                        </div>
-                        <h3 id="newsTitle0" style="font-size: 0.8em;font-weight: bold;">Ipsum consequat</h3>
-                        <h5 id="newsDate0" style="font-size: 0.6em;">April 6 2020</h5>
-                        <p id="newsDetail0" style="font-size: 0.8em;">Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                        <a id="newsLink0" href="#" rel="external nofollow" class="button">Learn More</a>
-
-                    </li>
-                    <li>
-                        <div class="thumbnail">
-                            <a href="#" id="thumbLink1"><img src="images/cdc_logo.jpg" alt="picture of the cdc logo"></a>
-                        </div>
-                        <h3 id="newsTitle1" style="font-size: 0.8em;font-weight: bold;">Ipsum consequat</h3>
-                        <h5 id="newsDate1" style="font-size: 0.6em;">April 6 2020</h5>
-                        <p id="newsDetail1" style="font-size: 0.8em;">Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                        <a id="newsLink1" href="#" rel="external nofollow" class="button">Learn More</a>
-
-                    </li>
-                    <li>
-                        <div class="thumbnail">
-                            <a href="#" id="thumbLink2"><img src="images/cdc_logo.jpg" alt="picture of the cdc logo"></a>
-                        </div>
-                        <h3 id="newsTitle2" style="font-size: 0.8em;font-weight: bold;">Ipsum consequat</h3>
-                        <h5 id="newsDate2" style="font-size: 0.6em;">April 6 2020</h5>
-                        <p id="newsDetail2" style="font-size: 0.8em;">Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                        <a id="newsLink2" href="#" rel="external nofollow" class="button">Learn More</a>
-
-                    </li>
-                </ul>
-
-
-
-
+                <div id="chartdiv"></div>
             </section>
 
             <!-- Maybe I will put something amazing here. If you reading this then I will assume you are a techy. If anyone is able to provide me with hosting that would be great, I am currently paying vps to host this out of my University funds :(  -->
@@ -354,7 +325,11 @@
                 <header class="major">
                     <h2>Contact Us</h2>
                     <p>I am running the website out of my free time in University. If you would like to contribute to this project, then please do contact me with the "blue" circle on bottom right of the screen. I will get notified, even If I am not online.</p>
-                    <p style="font-size: 0.8em;">Special thanks to <a href="https://www.raps.org/" rel="external nofollow"> RAPS </a>, I am mostly grabbing my details from their sources.</p>
+                    <p style="font-size: 0.8em;">Special thanks to <a href="https://www.raps.org/" rel="external nofollow"> RAPS </a> & WHO, I am mostly grabbing my details from their sources.</p>
+
+                    <div class="sharethis-inline-share-buttons" data-url="https://vaccine-tracker.com/" data-title="Coronavirus Vaccine Tracker (Live) - Find Latest Update for Covid-19 Vaccine" data-image="images/coronavirus-19-vaccine.png" data-description="Get the latest coronavirus (Covid-19) vaccine information. List of vaccine that are phased for human testing and potentially can be used to stop coronavirus."></div>
+                    <p style="font-size: 0.8em;">Share our website and let everyone know of the latest progress! 🙂</p>
+
                 </header>
                 <!--
 								<footer class="major">
@@ -382,7 +357,9 @@
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js?v=2"></script>
+    <script src="assets/js/main.js?v=4"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e964b265d9bf5001283bae9&product=inline-share-buttons" async="async"></script>
+
 </body>
 
 </html>
