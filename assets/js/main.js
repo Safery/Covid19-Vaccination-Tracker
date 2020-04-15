@@ -160,7 +160,7 @@
 
     // Fetch Vaccine details for phase 2
     $.ajax({
-        url: "https://spreadsheets.google.com/feeds/cells/1s0j7roYF8zxqK-gNgqnKtkY8OrgmovzDwtjAc6LI3c0/1/public/values?alt=json",
+        url: "https://spreadsheets.google.com/feeds/cells/1yvmeAtpxonqmJ7OlO2gRBt2lUVnk3baeIHFu0M9ZLxo/1/public/values?alt=json",
         success: function(result) {
             var table = "";
             for (var i = 0; i < result["feed"]["entry"].length - 1; i = i + 6) {
@@ -193,7 +193,7 @@
     // Fetch Vaccine details for phase 1
     function doPhase1(){
         $.ajax({
-            url: "https://spreadsheets.google.com/feeds/cells/1aca-atk3B4pK9GYya1UrBKWjFoA6Tn1_se61EEE2IUw/1/public/values?alt=json",
+            url: "https://spreadsheets.google.com/feeds/cells/1Ebxlw5HEqzr1JEO4atHZiYGweUUQ6gIPBECDjuvkHR8/1/public/values?alt=json",
             success: function(result) {
                 var table = "";
                 for (var i = 0; i < result["feed"]["entry"].length - 1; i = i + 6) {
@@ -228,7 +228,7 @@
     // Fetch Vaccine details for phase 0
     function doPhase0(){
         $.ajax({
-            url: "https://spreadsheets.google.com/feeds/cells/1VOgZcm9CawE-oskv-QSIeAd29-rHRj7CSYWWqwffE_0/1/public/values?alt=json",
+            url: "https://spreadsheets.google.com/feeds/cells/1PINwxQbZr14xz_TfODu0_XQNRPuAlsGgIqcVbFjGOn8/1/public/values?alt=json",
             success: function(result) {
                 var table = "";
                 for (var i = 0; i < result["feed"]["entry"].length - 1; i = i + 6) {
